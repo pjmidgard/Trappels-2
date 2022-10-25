@@ -301,13 +301,13 @@ class encypthion_class:
                                                                     res2=1
 
                                                                 
-                                                                elif Calculus[Times:Times+3]==Calculus[Times2:Times2+4] and res2==0 and Times2!=Times and long2==blocks:
+                                                                elif Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and res2==0 and Times2!=Times and long2==blocks:
                                                                     Combination1+=1
                                                                     Combination3=format(Combination1,'046b')
                                                                 
                                                                     res2=1
 
-                                                                if Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+3]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and  long2==blocks:
+                                                                if Calculus[Times:Times+4]==Calculus[Times2:Times2+4] and Calculus[Times:Times+4]==Calculus[Times3:Times3+4] and Combination2==Calculus and res1==0 and  Times2!=Times and  long2==blocks:
                                                                 
                                                                     res1=1
                                                     
