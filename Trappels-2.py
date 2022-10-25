@@ -271,9 +271,9 @@ class encypthion_class:
                                                         Combination5=1
                                                         
                                                     
-                                                    Times=-3
-                                                    Times2=-3
-                                                    Times3=-3
+                                                    Times=-4
+                                                    Times2=-4
+                                                    Times3=-4
                                                         
                                                     Combination+=1
                                                     Combination2=format(Combination,'048b')
@@ -430,8 +430,8 @@ class encypthion_class:
                                 
                               
                                 
-                                #import paq
-                                #jl= paq.compress(jl)
+                                
+                                
                              
                                 
                                
@@ -524,8 +524,8 @@ class encypthion_class:
                        # Read the whole file at once
                         
                         data = binary_file.read()
-                        import paq
-                        data= paq.decompress(data)
+                      
+                      
                         
 
                         
